@@ -1,5 +1,5 @@
 import { readFile } from 'fs/promises'
-import { RevealButton } from './reveal-button'
+import { RevealButton } from './RevealButton'
 
 export default async function CatGenerator() {
   const allCatNames = await readFile('./cats.txt', 'utf8')

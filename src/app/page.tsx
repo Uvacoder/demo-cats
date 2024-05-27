@@ -1,4 +1,4 @@
-import CatGenerator from '@/components/cat-generator'
+import CatGenerator from '@/components/CatGenerator'
 
 export default function Home() {
   return (
