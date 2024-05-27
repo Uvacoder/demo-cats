@@ -21,6 +21,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Based on Talk By Dan Abramov and Video By T3
 
-https://www.youtube.com/watch?v=T8TZQ6k4SLE&t=19273s
+https://www.youtube.com/live/T8TZQ6k4SLE?t=18822s
 
 https://www.youtube.com/watch?v=CnDYV2v2G4w
