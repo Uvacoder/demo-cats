@@ -1,12 +1,11 @@
 import CatGenerator from '@/components/CatGenerator'
 import stylex from '@stylexjs/stylex'
-import { colors } from '@stylexjs/open-props/lib/colors.stylex'
-import { fonts } from '@stylexjs/open-props/lib/fonts.stylex'
+import { sizes } from '@stylexjs/open-props/lib/sizes.stylex'
 const styles = stylex.create({
   cats: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '1rem',
+    gap: sizes.spacing4,
     justifyContent: 'center',
     alignItems: 'center',
     width: '100vw',

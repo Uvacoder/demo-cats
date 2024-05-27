@@ -1,28 +1,29 @@
 'use client'
 
 import stylex from '@stylexjs/stylex'
-import { colors } from '@stylexjs/open-props/lib/colors.stylex'
 import { fonts } from '@stylexjs/open-props/lib/fonts.stylex'
+import { sizes } from '@stylexjs/open-props/lib/sizes.stylex'
+import { borders } from '@stylexjs/open-props/lib/borders.stylex'
 import { useState } from 'react'
 import { defaultColors } from '../app/tokens.stylex'
 
 const styles = stylex.create({
   catName: {
-    fontSize: '2.25rem',
-    lineHeight: '2.5rem',
+    fontSize: sizes.spacing7,
+    lineHeight: sizes.spacing7,
     fontWeight: fonts.weight7,
     fontFamily: 'Arial, Helvetica, sans-serif',
   },
   button: {
-    paddingTop: '0.25rem',
-    paddingBottom: '0.25rem',
-    paddingLeft: '1rem',
-    paddingRight: '1rem',
-    borderRadius: '0.5rem',
+    paddingTop: sizes.spacing00,
+    paddingBottom: sizes.spacing00,
+    paddingLeft: sizes.spacing3,
+    paddingRight: sizes.spacing3,
+    borderRadius: borders.radius3,
     border: 0,
-    fontSize: '1.5rem',
-    lineHeight: '2rem',
-    fontWeight: 700,
+    fontSize: fonts.size4,
+    lineHeight: fonts.lineHeight5,
+    fontWeight: fonts.weight7,
     color: defaultColors.textColor,
     backgroundColor: defaultColors.buttonColor,
   },
